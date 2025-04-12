@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
+  // set input, todos 
   const [input, setInput] = useState('');
   const [todos, setTodos] = useState(() => {
     const stored = localStorage.getItem('todos');
